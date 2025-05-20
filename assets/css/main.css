@@ -19,23 +19,6 @@
  
  ******************************************************************/
 
-.github-button {
-    display: inline-block;
-    margin-top: 20px;
-    background-color: #24292e;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 14px;
-    transition: background-color 0.3s ease;
-}
-
-.github-button:hover {
-    background-color: #444c56;
-}
-
 
 /** 1. Basic
 *******************************************************************/
@@ -1208,4 +1191,21 @@ button
 {
     color: #fff;
     border-bottom: 1px solid #eee;
+}
+
+.github-button {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #24292e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.github-button:hover {
+    background-color: #444c56;
 }
