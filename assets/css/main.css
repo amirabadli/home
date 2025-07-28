@@ -1194,12 +1194,12 @@ button
 }
 
 /* .github-button {
-    display: block; /* Makes it behave like a full-width block */
-    width: 100%;    /* Full width of its container (e.g., same as paragraph) */
+    display: block; 
+    width: 100%;    
     background-color: #ffffff;
     color: #000000;
     padding: 12px 20px;
-    border: 2px solid #000; /* Optional: adds a clear boundary */
+    border: 2px solid #000; 
     border-radius: 6px;
     text-decoration: none;
     font-weight: 600;
