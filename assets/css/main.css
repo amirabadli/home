@@ -824,11 +824,12 @@ button
 {
     max-width: 900px;
     padding: 9vh 8vh;
-    text-align: center;
-	
-/* }
 
-.featherlight .featherlight-content .work-lightbox p,
+    text-align: center;
+}
+
+
+/* .featherlight .featherlight-content .work-lightbox p,
 .featherlight .featherlight-content .work-lightbox ul,
 .featherlight .featherlight-content .work-lightbox li {
     text-align: left; 
