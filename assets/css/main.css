@@ -824,15 +824,15 @@ button
 {
     max-width: 900px;
     padding: 9vh 8vh;
-
-    text-align: left;
+/*     text-align: center; */
+	
 }
 
-/* .featherlight .featherlight-content .work-lightbox p,
+.featherlight .featherlight-content .work-lightbox p,
 .featherlight .featherlight-content .work-lightbox ul,
 .featherlight .featherlight-content .work-lightbox li {
-    text-align: left; /* This will force paragraphs and list items to be left-aligned */
-} */
+    text-align: left; 
+}
 
 .featherlight .featherlight-content .work-lightbox img
 {
