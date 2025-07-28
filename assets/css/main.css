@@ -1193,7 +1193,7 @@ button
     border-bottom: 1px solid #eee;
 }
 
-.github-button {
+/* .github-button {
     display: block; /* Makes it behave like a full-width block */
     width: 100%;    /* Full width of its container (e.g., same as paragraph) */
     background-color: #ffffff;
@@ -1214,5 +1214,27 @@ button
     background-color: #ffffff;
     color: #000000;
     text-decoration: underline;
+} */
+
+.github-button {
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 12px 20px;
+    border: 2px solid #000;
+    border-radius: 6px;
+    text-decoration: none; 
+    font-weight: 600;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.github-button:hover {
+    background-color: #000000;
+    color: #ffffff;
 }
 
