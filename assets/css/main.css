@@ -832,26 +832,26 @@ button
 {
     margin: 0 auto 6vh auto;
 }
-
-/* .featherlight .featherlight-content .work-lightbox h3
-{
-    margin-bottom: .2em;
-} */
-
-/* .featherlight .featherlight-content .work-lightbox p.subline
-{
-    margin-bottom: 1.6em;
-
-    letter-spacing: .025em;
-}
- */
-.featherlight .featherlight-content .work-lightbox h3, /* ADD THIS LINE */
+ 
+.featherlight .featherlight-content .work-lightbox h3, 
 .featherlight .featherlight-content .work-lightbox p,
 .featherlight .featherlight-content .work-lightbox p.subline,
 .featherlight .featherlight-content .work-lightbox ul {
     max-width: 660px;   /* All these blocks will now be 660px wide */
     margin: 0 auto;     /* All these blocks will now be horizontally centered */
     margin-bottom: 2em; /* This will be the default margin-bottom for all in this group */
+}
+
+.featherlight .featherlight-content .work-lightbox h3
+{
+    margin-bottom: .2em;
+}
+
+ .featherlight .featherlight-content .work-lightbox p.subline
+{
+    margin-bottom: 1.6em;
+
+    letter-spacing: .025em;
 }
 
 .featherlight .featherlight-content .work-lightbox ul {
@@ -1247,7 +1247,7 @@ button
 }
 
 .github-button:hover {
-/*     background-color: #000000; */
-    background-color: #F5DA27;
-    color: #ffffff;
+    background-color: #000000;
+/*     background-color: #F5DA27; */
+    color: #000000;
 }
