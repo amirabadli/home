@@ -1248,7 +1248,8 @@ button
 }
 
 .github-button:hover {
-    background-color: #F5DA27;
-    # color: #000000;
-   color: #ffffff;	
+    background-color: #000000;
+/* 	    #F5DA27; */
+    color: #ffffff;
+/*     color: #000000; */
 }
