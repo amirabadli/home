@@ -861,7 +861,7 @@ button
    It's needed for the precise bullet point positioning and text alignment within each list item.
 */
 .featherlight .featherlight-content .work-lightbox li {
-    padding-left: 1.5em;  /* Adjust this value to control text indentation from the bullet */
+    padding-left: 0;  /* Adjust this value to control text indentation from the bullet */
     text-indent: -1.5em; /* Pulls the bullet point back to the left */
     line-height: 1.6;     /* Optional: Improves readability of list item lines */
     margin-bottom: 0.5em; /* Optional: Adds some spacing between list items */
@@ -1249,6 +1249,6 @@ button
 
 .github-button:hover {
     background-color: #F5DA27;
-    color: #000000;
-   # color: #ffffff;	
+    # color: #000000;
+   color: #ffffff;	
 }
