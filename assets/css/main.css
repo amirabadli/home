@@ -833,23 +833,25 @@ button
     margin: 0 auto 6vh auto;
 }
 
-.featherlight .featherlight-content .work-lightbox h3
+/* .featherlight .featherlight-content .work-lightbox h3
 {
     margin-bottom: .2em;
-}
+} */
 
-.featherlight .featherlight-content .work-lightbox p.subline
+/* .featherlight .featherlight-content .work-lightbox p.subline
 {
     margin-bottom: 1.6em;
 
     letter-spacing: .025em;
 }
-
+ */
+.featherlight .featherlight-content .work-lightbox h3, /* ADD THIS LINE */
 .featherlight .featherlight-content .work-lightbox p,
+.featherlight .featherlight-content .work-lightbox p.subline,
 .featherlight .featherlight-content .work-lightbox ul {
-    max-width: 660px;   
-    margin: 0 auto;     
-    margin-bottom: 2em; 
+    max-width: 660px;   /* All these blocks will now be 660px wide */
+    margin: 0 auto;     /* All these blocks will now be horizontally centered */
+    margin-bottom: 2em; /* This will be the default margin-bottom for all in this group */
 }
 
 .featherlight .featherlight-content .work-lightbox ul {
@@ -857,11 +859,8 @@ button
     margin-top: 1em;  # optional
 }
 
-/* THIS IS THE NEW RULE for LI.
-   It's needed for the precise bullet point positioning and text alignment within each list item.
-*/
 .featherlight .featherlight-content .work-lightbox li {
-    padding-left: 0;  /* Adjust this value to control text indentation from the bullet */
+    padding-left: 1.5em;  /* Adjust this value to control text indentation from the bullet */
     text-indent: -1.5em; /* Pulls the bullet point back to the left */
     line-height: 1.6;     /* Optional: Improves readability of list item lines */
     margin-bottom: 0.5em; /* Optional: Adds some spacing between list items */
@@ -1248,8 +1247,7 @@ button
 }
 
 .github-button:hover {
-    background-color: #000000;
-/* 	    #F5DA27; */
+/*     background-color: #000000; */
+    background-color: #F5DA27;
     color: #ffffff;
-/*     color: #000000; */
 }
