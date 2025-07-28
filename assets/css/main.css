@@ -825,15 +825,8 @@ button
     max-width: 900px;
     padding: 9vh 8vh;
 
-    text-align: center;
+    text-align: left;
 }
-
-
-/* .featherlight .featherlight-content .work-lightbox p,
-.featherlight .featherlight-content .work-lightbox ul,
-.featherlight .featherlight-content .work-lightbox li {
-    text-align: left; 
-} */
 
 .featherlight .featherlight-content .work-lightbox img
 {
@@ -852,11 +845,11 @@ button
     letter-spacing: .025em;
 }
 
-.featherlight .featherlight-content .work-lightbox p
-{
-    max-width: 660px;
-    margin: 0 auto;
-    margin-bottom: 2em;
+.featherlight .featherlight-content .work-lightbox p,
+.featherlight .featherlight-content .work-lightbox ul {
+    max-width: 660px;   
+    margin: 0 auto;     
+    margin-bottom: 2em; 
 }
 
 .featherlight .featherlight-content .work-lightbox p:last-child
