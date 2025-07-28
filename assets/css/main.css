@@ -603,9 +603,9 @@ button
 
 /** 8. Content Area --> Work
 *******************************************************************/
-#work > h3 {
+#work > h4 {
   margin-bottom: 1.5rem;
-/*   text-align: center; */ 
+  text-align: left; 
 }
 
 /* Container for buttons - optional spacing helper */
@@ -640,9 +640,6 @@ button
   background-color: #17191b;
   color: #ffffff;
 }
-
-
-
 
 
 #work .showcase .item
