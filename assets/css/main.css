@@ -849,6 +849,8 @@ button
 
  .featherlight .featherlight-content .work-lightbox p.subline
 {
+    font-size: 2rem;
+
     margin-bottom: 1.6em;
 
     letter-spacing: .025em;
