@@ -86,12 +86,9 @@ h6
 
 p
 {
-/*     font-size: 1.8rem;
-    line-height: 1.7em;
-    text-align: left; */
     font-size: 1.5rem;
     line-height: 2em;
-
+    text-align: left
     letter-spacing: .02em;
 }
 
