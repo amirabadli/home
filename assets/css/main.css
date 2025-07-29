@@ -873,6 +873,15 @@ button
     margin-bottom: 0;
 }
 
+.featherlight .featherlight-content .work-lightbox p code {
+    background-color: transparent; /* Makes the background clear */
+    color: #fff;               
+    font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;
+    padding: 0;            
+    border-radius: 0;    
+    font-size: 1em;    
+}
+
 
 
 /** 9. Content Area --> Contact
