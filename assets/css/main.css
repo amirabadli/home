@@ -837,9 +837,9 @@ button
 .featherlight .featherlight-content .work-lightbox p,
 .featherlight .featherlight-content .work-lightbox p.subline,
 .featherlight .featherlight-content .work-lightbox ul {
-    max-width: 660px;   /* All these blocks will now be 660px wide */
-    margin: 0 auto;     /* All these blocks will now be horizontally centered */
-    margin-bottom: 2em; /* This will be the default margin-bottom for all in this group */
+    max-width: 660px;  
+    margin: 0 auto;   
+    margin-bottom: 2em; 
 }
 
 .featherlight .featherlight-content .work-lightbox h3
@@ -878,13 +878,9 @@ button
     color: #fff;               
     font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;
     padding: 0;            
-    border-radius: 0;    
+    border-radius: 6px;    
     font-size: 1em;    
 }
-
-.featherlight .featherlight-content .work-lightbox p:has(+ ul) {
-    margin-bottom: 1em;
-
 
 
 /** 9. Content Area --> Contact
