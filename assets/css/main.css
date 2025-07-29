@@ -616,7 +616,6 @@ button
   margin-bottom: 2rem;
 }
 
-/* Transparent oval filter buttons with white border and text */
 .filter-button {
   background-color: transparent;
   border: 2px solid white;
@@ -631,15 +630,14 @@ button
   text-align: center;
 }
 
-/* Hover effect */
 .filter-button:hover {
-  background-color: #17191b;
+  background-color: #8C94D8;
   color: #ffffff;
 }
 
-/* Active state */
+
 .filter-button.active {
-  background-color: #17191b;
+  background-color: #8C94D8;
   color: #ffffff;
 }
 
