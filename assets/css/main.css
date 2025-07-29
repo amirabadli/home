@@ -874,7 +874,7 @@ button
 }
 
 .featherlight .featherlight-content .work-lightbox p code {
-    background-color: transparent; /* Makes the background clear */
+    background-color: rgba(240, 240, 240, 0.2); /* Makes the background clear */
     color: #fff;               
     font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;
     padding: 0;            
@@ -1258,7 +1258,7 @@ button
 }
 
 .github-button:hover {
-    background-color: #000000;
-/*     background-color: #F5DA27; */
+/*     background-color: #000000; */
+    background-color: #F5DA27;
     color: #000000;
 }
