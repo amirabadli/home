@@ -861,7 +861,7 @@ button
 
 .featherlight .featherlight-content .work-lightbox li {
     padding-left: 1.5em; 
-    text-indent: -1.5em;
+    text-indent: 0;     /* remove negative indent */
     line-height: 1.6;    
     margin-bottom: 0.5em; 
 }
@@ -1258,3 +1258,4 @@ button
     background-color: #F5E11D;
     color: #000000;
 }
+
